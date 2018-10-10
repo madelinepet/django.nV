@@ -106,5 +106,5 @@ SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
 EMAIL_PORT = 1025
 
 # Needs compatibility with older Django!
-SESSION_SERIALIZER = "django.contrib.sessions.serializers.PickleSerializer"
+SESSION_SERIALIZER = "django.contrib.sessions.serializers.JSONSerializer"
 SESSION_COOKIE_HTTPONLY = False
